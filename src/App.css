@@ -1,0 +1,42 @@
+.flip {
+  width: 200px;
+  height: 100px;
+  border-radius: 4px;
+  background-color: cadetblue;
+}
+
+.container {
+  width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+}
+
+.scale {
+  width: 100px;
+  height: 140px;
+  background-color: blueviolet;
+}
+
+.big {
+  width: 130px;
+  height: 180px;
+}
+
+.left-box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 130px;
+  height: 80px;
+  background-color: cornflowerblue;
+}
+
+.right-box {
+  position: fixed;
+  bottom: 50%;
+  right: 0;
+  width: 100px;
+  height: 120px;
+  background-color: violet;
+}

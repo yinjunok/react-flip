@@ -17,10 +17,10 @@ const measure = (preRect: DOMRect, curRect: DOMRect): MeasureResult => {
     preRect.height !== curRect.height
   ) {
     return {
-      x: curRect.left - preRect.left,
-      y: curRect.top - preRect.top,
-      scaleX: curRect.width / preRect.width,
-      scaleY: curRect.height / preRect.height,
+      x: preRect.left - curRect.left,
+      y: preRect.top - curRect.top,
+      scaleX: preRect.width / curRect.width,
+      scaleY: preRect.height / curRect.height,
     }
   }
 
